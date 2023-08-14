@@ -2,7 +2,7 @@
 
 ## Description
 
-Sym_Chk ( Symptom Checker Tool ) is a healthcare application that allows users to extract a list of positively identified signs and symptoms from clinical text. It was built using the Flask and spacy packages available in python. The tool uses a custom fine-tuned BioBERT model(en_ner_biobert_symptom) which is available on Hugging Face. It also makes use of the Stanza library`s negation detection feature and the simcin mapping of the Nimble Miner app. The application was built as part of a research study on symptom identification of clinical notes of patients suffering from AML.
+Sym_Chk ( Symptom Checker Tool ) is a healthcare application that allows users to extract a list of positively identified signs and symptoms from clinical text. It was built using the Flask and spacy python packages. The tool uses a custom fine-tuned BioBERT model(en_ner_biobert_symptom) which is available on Hugging Face. It also makes use of the Stanza library`s negation detection feature and the simcin mapping of the Nimble Miner app. The application was built as part of a research study on symptom identification of clinical notes of patients suffering from AML.
 
 ## Features
 - Limit of 1000 characters for the input clinical note. 
