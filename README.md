@@ -1,7 +1,7 @@
 # Symptom Checker Tool (`Sym_Chk`)
 
 ## About
-The Symptom Checker Tool allows users to input clinical notes and extract a list of signs and symptoms detected from the entered text. It was built using Flask,spacy and is based on a custom fine-tuned BioBERT model. It also makes use of the Stanza library`s negation detection and the simclin set of Nimble Miner. The tool was built as part of a research study on symptom identification of patient notes.
+Sym_Chk(Symptom Checker Tool) is a healthcare application that allows users extract a list of positively identified signs and symptoms from clinical text. It was built using the Flask and spacy packages available in python. The tool uses a custom fine-tuned BioBERT model(en_ner_biobert_symptom) which is available on Hugging Face. It also makes use of the Stanza library`s negation detection feature and the simcin mapping of the Nimble Miner app. The application was built as part of a research study on symptom identification of clinical notes of patients suffering from AML.
 
 ## Features
 - Limit of 1000 characters for the input clinical note. 
@@ -13,7 +13,7 @@ The Symptom Checker Tool allows users to input clinical notes and extract a list
 ## Prerequisites
 Before you begin, ensure you meet either of the following requirements:
 
-- Working python installation(preferably a conda installation)
+- A working python installation with pip or conda (preferably a conda installation)
 - Docker installed on your machine.
 
 
@@ -27,7 +27,7 @@ Before you begin, ensure you meet either of the following requirements:
    ```
 2. Install the required python packages from the requirements.txt using pip or conda.
 
-### Using Docker
+### Using Docker (recommended)
 
 1. **Build the Docker Image:**
  ```bash
@@ -43,5 +43,5 @@ docker run -d -p 5000:5000 sym_chk_app
 
 ### License & Citation
 
-This tool is licensed under the MIT open-source license. If you use this tool, please cite our paper **"Developing a BioBERT-based Natural Language Processing Algorithm for Acute Myeloid Leukemia Symptom Identification from Clinical Notes-Sena Chae, Pratik Maitra, Padmini Srinivasan"**. Full citations and acknowledgements can be found in the paper.
+This tool is licensed under the MIT open-source license. If you use this tool, please cite our paper **"Developing a BioBERT-based Natural Language Processing Algorithm for Acute Myeloid Leukemia Symptom Identification from Clinical Notes- Sena Chae, Pratik Maitra, Padmini Srinivasan "**. A complete list of citations and acknowledgements can be found in the aforementioned paper.
 
