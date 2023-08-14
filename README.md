@@ -23,3 +23,13 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/PratikMaitra/Sym_Chk.git
+
+
+
+   
+### Part 2: License & Citation
+```markdown
+### License & Citation
+
+This tool is licensed under the MIT open-source license. If you use this tool, please cite the paper "Developing a BioBERT-based Natural Language Processing Algorithm for Acute Myeloid Leukemia Symptom Identification from Clinical Notes". Full citations and acknowledgements can be found in the paper.
+
