@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Symptom Checker</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 5%;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            /* Gradient background */
+            background: linear-gradient(to bottom, #e0f7fa, #b2ebf2, #80deea);
+            height: 100vh; /* Make the gradient cover the full viewport height */
+        }
+        .container {
+            background-color: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow to lift the card a bit */
+        }
+        button {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mb-4">Symptom Checker</h2>
+        <form action="/" method="post">
+            <div class="form-group">
+                <label for="inputText">Enter Clinical Text (Max: 1000 characters):</label>
+                <textarea class="form-control" id="inputText" name="input_text" rows="4" maxlength="1000" placeholder="Enter clinical text here...">{{ input_text }}</textarea>
+                <span id="charCount">1000 characters remaining</span>
+            </div>
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary" name="apply">Detect Symptoms</button>
+                <button type="submit" class="btn btn-secondary" name="reset">Reset</button>
+            </div>
+            <div class="form-group">
+                <label for="symptoms">Extracted Symptoms:</label>
+                <textarea readonly class="form-control" id="symptoms" rows="4">{{ "\n".join(extracted_entities) }}</textarea>
+            </div>
+            <div class="form-group">
+                <label for="category">Category:</label>
+                <textarea readonly class="form-control" id="category" rows="4">{{ categories_string }}</textarea>
+            </div>
+        </form>
+    </div>
+    <footer class="text-center mt-4">
+        This tool is licensed under the MIT open-source license.<br>
+        Please cite <strong>Developing a BioBERT-based Natural Language Processing Algorithm for Acute Myeloid Leukemia Symptom Identification from Clinical Notes</strong> if you use this tool.<br>
+        A complete list of citations and acknowledgements for the components used in the making of this tool are given in our paper.
+    </footer>
+    
+    
+
+    <!-- Optional Bootstrap JS (for popovers, tooltips, etc.) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        let textarea = document.getElementById('inputText');
+        let charCount = document.getElementById('charCount');
+
+        textarea.addEventListener('input', function() {
+            let remaining = 1000 - textarea.value.length;
+            charCount.textContent = `${remaining} characters remaining`;
+        });
+    </script>
+</body>
+</html>
