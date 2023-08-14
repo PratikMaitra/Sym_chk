@@ -1,5 +1,3 @@
-# Sym_chk
-
 Symptom Checker App (Sym_Chk)
 Introduction
 The Symptom Checker App allows users to input clinical text and get potential symptoms detected from the text. Built using Flask and backed by the BioBERT model, the app offers high accuracy and easy-to-use UI.
