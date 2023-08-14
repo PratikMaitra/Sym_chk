@@ -5,7 +5,7 @@ The Symptom Checker Tool allows users to input clinical notes and extract a list
 
 ## Features
 - Limit of 1000 characters for the input clinical note. 
-- Extraction of signs and symptoms alogn with their categories from the entered text.
+- Extraction of signs and symptoms along with their categories from the entered text.
 - Can discard negated signs and symptoms
 - Licensed under MIT License..
 - Citations and acknowledgment section provided below.
