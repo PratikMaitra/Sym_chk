@@ -6,7 +6,7 @@ Sym_Chk ( Symptom Checker Tool ) is a healthcare application that allows users t
 
 
 ## Prerequisites
-Before you begin, ensure you meet either of the following requirements:
+Before you begin, ensure you have either of the following :
 
 - A working python installation with pip or conda (preferably a conda installation)
 - Docker installed on your machine.
