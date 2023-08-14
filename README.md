@@ -1,6 +1,6 @@
 # Symptom Checker Tool (`Sym_Chk`)
 
-## Introduction
+## About
 The Symptom Checker Tool allows users to input clinical notes and extract a list of signs and symptoms detected from the entered text. It was built using Flask,spacy and is based on a custom fine-tuned BioBERT model. It also makes use of the Stanza library`s negation detection and the simclin set of Nimble Miner. The tool was built as part of a research study on symptom identification of patient notes.
 
 ## Features
