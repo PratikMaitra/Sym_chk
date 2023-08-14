@@ -1,7 +1,7 @@
 # Symptom Checker Tool (`Sym_Chk`)
 
 ## About
-Sym_Chk(Symptom Checker Tool) is a healthcare application that allows users extract a list of positively identified signs and symptoms from clinical text. It was built using the Flask and spacy packages available in python. The tool uses a custom fine-tuned BioBERT model(en_ner_biobert_symptom) which is available on Hugging Face. It also makes use of the Stanza library`s negation detection feature and the simcin mapping of the Nimble Miner app. The application was built as part of a research study on symptom identification of clinical notes of patients suffering from AML.
+Sym_Chk ( Symptom Checker Tool ) is a healthcare application that allows users extract a list of positively identified signs and symptoms from clinical text. It was built using the Flask and spacy packages available in python. The tool uses a custom fine-tuned BioBERT model(en_ner_biobert_symptom) which is available on Hugging Face. It also makes use of the Stanza library`s negation detection feature and the simcin mapping of the Nimble Miner app. The application was built as part of a research study on symptom identification of clinical notes of patients suffering from AML.
 
 ## Features
 - Limit of 1000 characters for the input clinical note. 
@@ -16,6 +16,25 @@ Before you begin, ensure you meet either of the following requirements:
 - A working python installation with pip or conda (preferably a conda installation)
 - Docker installed on your machine.
 
+## Using the Model without the tool
+
+If you want to only use the underlying fine-tuned BioBERT model you can find it on Hugging Face.
+```bash
+!pip install https://huggingface.co/pmaitra/en_biobert_ner_symptom/resolve/main/en_biobert_ner_symptom-any-py3-none-any.whl
+```
+The model requires the installation of the open-source spacy package.
+
+Sample use case of the model using python.
+```python
+
+import spacy
+nlp = spacy.load("en_biobert_ner_symptom")
+
+doc = nlp("He complained of dizziness and nausea during the Iowa trip.")
+
+for ent in doc.ents:
+  print(ent)
+```
 
 ## Installation & Usage
 
