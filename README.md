@@ -78,5 +78,9 @@ docker run -d -p 5000:5000 sym_chk_app
 
 ### License & Citation
 
-This tool is licensed under the MIT open-source license. If you use this tool, please cite our paper **"Developing a BioBERT-based Natural Language Processing Algorithm for Acute Myeloid Leukemia Symptom Identification from Clinical Notes- Sena Chae, Pratik Maitra, Padmini Srinivasan "**. A complete list of citations and acknowledgements can be found in the aforementioned paper.
+This tool is licensed under the MIT open-source license. 
+
+If you use this tool, please cite our paper **"Developing a BioBERT-based Natural Language Processing Algorithm for Acute Myeloid Leukemia Symptom Identification from Clinical Notes- Sena Chae, Pratik Maitra, Padmini Srinivasan "**. 
+
+A complete list of citations and acknowledgements can be found in the aforementioned paper.
 
