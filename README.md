@@ -19,7 +19,7 @@ If you only want to use the underlying fine-tuned BioBERT NER model you can find
 ```
 The model requires the installation of the open-source spacy package along with the above model.
 
-Sample use case of the model using python.
+A sample use case is presented below.
 ```python
 
 import spacy
