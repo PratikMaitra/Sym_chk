@@ -36,11 +36,27 @@ for ent in doc.ents:
 ### Using conda or pip
 
 1. Open up a terminal and **Clone the Repository:**
+   
    ```bash
    git clone https://github.com/PratikMaitra/Sym_Chk.git
    ```
+   
 2. Install the required python packages from the requirements.txt using pip or conda.
+
+   ```bash
+   cd Sym_Chk
+   pip install -r requirements.txt
+    ```
+   If you are using conda,
+   ```bash
+   conda create --name sym_chk_env --file requirements.txt
+   ```
+   
 3. Run the app.py file.
+
+   ```bash
+   python app.py
+   ```
 
 ### Using Docker (recommended)
 
