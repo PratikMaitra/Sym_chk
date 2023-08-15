@@ -2,7 +2,7 @@
 
 ## Description
 
-Sym_Chk_Tl ( Symptom Checker Tool ) is a healthcare application that allows users to extract a list of positively identified signs and symptoms from clinical text. It was built using the Flask and spacy python packages. The tool uses a custom fine-tuned BioBERT model( en_ner_biobert_symptom - https://huggingface.co/pmaitra/en_biobert_ner_symptom ) which is available on Hugging Face. It also makes use of the Stanza library`s negation detection feature and the simcin mapping of the Nimble Miner app. The application was built as part of a research study on symptom identification of clinical notes of patients suffering from AML.
+Sym_Chk_Tl ( Symptom Checker Tool ) is a healthcare application that allows users to extract a list of positively identified signs and symptoms from clinical text. It was built using the Flask and spacy python packages. The tool uses a custom fine-tuned BioBERT model( en_ner_biobert_symptom - https://huggingface.co/pmaitra/en_biobert_ner_symptom ) which is available on Hugging Face. It also makes use of the Stanza library`s negation detection feature and the similar clinical term mapping of the Nimble Miner app. The application was built as part of a research study on symptom identification of clinical notes of patients suffering from AML.
 
 
 ## Prerequisites
@@ -78,7 +78,7 @@ docker run -d -p 5000:5000 sym_chk_app
 
 ### License & Citation
 
-This tool is licensed under the MIT open-source license for the model.  
+This tool is licensed under the MIT open-source license.  
 
 If you use this tool, please cite our paper **"Developing a BioBERT-based Natural Language Processing Algorithm for Acute Myeloid Leukemia Symptom Identification from Clinical Notes- Sena Chae, Pratik Maitra, Padmini Srinivasan "**. 
 
