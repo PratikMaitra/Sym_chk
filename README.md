@@ -34,7 +34,7 @@ nlp = spacy.load("en_biobert_ner_symptom")
 doc = nlp("He complained of dizziness and nausea during the Iowa trip.")
 
 for ent in doc.ents:
-  print(ent)
+  print(ent.text)
 ```
 
 ## Installation & Usage
