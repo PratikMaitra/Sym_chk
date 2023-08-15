@@ -35,11 +35,12 @@ for ent in doc.ents:
 
 ### Using conda or pip
 
-1. **Clone the Repository:**
+1. Open up a terminal and **Clone the Repository:**
    ```bash
    git clone https://github.com/PratikMaitra/Sym_Chk.git
    ```
 2. Install the required python packages from the requirements.txt using pip or conda.
+3. Run the app.py file.
 
 ### Using Docker (recommended)
 
