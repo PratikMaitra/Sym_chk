@@ -4,7 +4,9 @@
 
 Sym_Chk_Tl ( Symptom Checker Tool ) is a healthcare application that allows users to extract a list of positively identified signs and symptoms from clinical text. It was built using the Flask and spacy python packages. 
 
-The tool uses a custom fine-tuned BioBERT model( en_ner_biobert_symptom - https://huggingface.co/pmaitra/en_biobert_ner_symptom ) which is available on Hugging Face alongwith other python packages. 
+The tool uses a custom fine-tuned BioBERT model( en_ner_biobert_symptom).
+
+Hugging Face Link -https://huggingface.co/pmaitra/en_biobert_ner_symptom  
 
 The application was built as part of a research study on symptom identification of clinical notes of patients suffering from AML.
 
