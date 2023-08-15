@@ -8,7 +8,7 @@ The tool uses a custom fine-tuned BioBERT model( en_ner_biobert_symptom).
 
 Hugging Face Link -https://huggingface.co/pmaitra/en_biobert_ner_symptom  
 
-The application was built as part of a research study on symptom identification of clinical notes of patients suffering from AML.
+The application was built as part of a research study on symptom identification from clinical notes.
 
 
 ## Prerequisites
