@@ -8,8 +8,8 @@ Sym_Chk_Tl ( Symptom Checker Tool ) is a healthcare application that allows user
 ## Prerequisites
 Before you begin, ensure you have either of the following :
 
-- A working python installation with pip or conda (preferably a conda installation)
-- Docker installed on your machine.
+- A working python installation
+- Pip or Conda
 
 ## Using the Model without the tool
 
@@ -61,19 +61,7 @@ for ent in doc.ents:
    ```bash
    python app.py
    ```
-
-### Using Docker (recommended)
-
-1. **Build the Docker Image:**
- ```bash
- docker build -t sym_chk_app .
-```
-2. **Run the container:**
-```bash
-docker run -d -p 5000:5000 sym_chk_app
-```
-3. Open up your browser and go to "http://localhost:5000" to use the tool.
-
+5. Open up your browser and go to "http://localhost:5000" to use the tool.
 
 
 ### License & Citation
