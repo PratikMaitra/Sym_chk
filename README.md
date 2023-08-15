@@ -64,9 +64,7 @@ for ent in doc.ents:
 5. Open up your browser and go to "http://localhost:5000" to use the tool.
 
 
-### License & Citation
-
-The model used in the tool is licensed under the MIT open-source license.  
+### Citation
 
 If you use this tool, please cite our paper **"Developing a BioBERT-based Natural Language Processing Algorithm for Acute Myeloid Leukemia Symptom Identification from Clinical Notes- Sena Chae, Pratik Maitra, Padmini Srinivasan "**. 
 
