@@ -13,7 +13,7 @@ Before you begin, ensure you have either of the following :
 
 ## Using the Model without the tool
 
-If you only want to use the underlying fine-tuned BioBERT NER model you can find the model link,parameters and description on Hugging Face.
+If you only want to use the underlying fine-tuned BioBERT NER model you can find the model parameters and description on Hugging Face.
 ```bash
 !pip install https://huggingface.co/pmaitra/en_biobert_ner_symptom/resolve/main/en_biobert_ner_symptom-any-py3-none-any.whl
 ```
