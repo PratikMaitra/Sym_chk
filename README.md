@@ -17,7 +17,7 @@ If you only want to use the underlying fine-tuned BioBERT NER model you can find
 ```bash
 !pip install https://huggingface.co/pmaitra/en_biobert_ner_symptom/resolve/main/en_biobert_ner_symptom-any-py3-none-any.whl
 ```
-The model requires the installation of the open-source spacy package along with the above model.
+The model requires the installation of the open-source spacy package along with the above.
 
 A sample use case is presented below.
 ```python
