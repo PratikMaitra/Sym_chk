@@ -1,4 +1,4 @@
-# Symptom Checker Tool (`Sym_Chk`)
+# Symptom Checker Tool (`Sym_Chk_Tool`)
 
 ## Description
 
