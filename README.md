@@ -51,7 +51,7 @@ for ent in doc.ents:
 ```bash
 docker run -d -p 5000:5000 sym_chk_app
 ```
-3. Go to your browser and type in "http://localhost:5000" to use the tool.
+3. Open up your browser and go to "http://localhost:5000" to use the tool.
 
 
 
