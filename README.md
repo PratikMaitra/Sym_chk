@@ -72,7 +72,7 @@ for ent in doc.ents:
 
 ### Citation
 
-If you use this tool, please cite our paper **"Developing a BioBERT-based Natural Language Processing Algorithm for Acute Myeloid Leukemia Symptom Identification from Clinical Notes- Sena Chae, Pratik Maitra, Padmini Srinivasan "**. 
+If you use this tool, please cite our paper **"Uncovering Hidden Symptom Clusters in Patients with Acute Myeloid Leukemia using Natural Language Processing - Sena Chae, Jaewon Bae , Pratik Matira, Karen Dunn Lopez, Barbara Rake"**. 
 
 A complete list of citations and acknowledgements can be found in the aforementioned paper.
 
