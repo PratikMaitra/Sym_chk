@@ -72,7 +72,7 @@ for ent in doc.ents:
 
 ### Citation
 
-If you use this tool, please cite our paper **"Uncovering Hidden Symptom Clusters in Patients with Acute Myeloid Leukemia using Natural Language Processing - Sena Chae, Jaewon Bae , Pratik Matira, Karen Dunn Lopez, Barbara Rake"**. 
+If you use this tool, please cite our paper **"Leveraging Natural Language Processing for Symptom Identification in Acute Myeloid Leukemia using Clinical Notes from Electronic Health Record - Sena Chae, Pratik Maitra et al"**. 
 
 A complete list of citations and acknowledgements can be found in the aforementioned paper.
 
